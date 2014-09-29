@@ -16,4 +16,5 @@
     define('DEBUG', true);
     define('ROOT_PATH', str_replace('\\', '/', dirname($_SERVER['SCRIPT_FILENAME'])).'/');
     define('CTL_PATH',ROOT_PATH.'/site/controller/');
+    define('VIEW_PATH',ROOT_PATH.'/site/view/');
 ?>
